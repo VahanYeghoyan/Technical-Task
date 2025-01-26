@@ -26,8 +26,6 @@ Run Full Training
 
 Train BERT model (saved to ./bert_model)
 Train CatBoost model (saved to ./cat_boost_model)
-Evaluate both models
-Save optimal thresholds (BERT: 0.25, CatBoost: auto-tuned)
 
 
 ## Inference
