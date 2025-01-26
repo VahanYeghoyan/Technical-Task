@@ -33,9 +33,6 @@ Save optimal thresholds (BERT: 0.25, CatBoost: auto-tuned)
 ## Inference
 
 BERT-based Classification
-
 Load the saved BERT model and tokenizer for inference:
-
 CatBoost-based Classification
-
 Load the saved CatBoost model and TF-IDF vectorizer for inference:
