@@ -9,16 +9,6 @@ Multi-label classification of job titles using transformer-based and machine lea
   1. BERT Transformer Model
   2. CatBoost Algorithm
 
-## Requirements
-- Python 3.8+
-- Libraries: 
-  - PyTorch
-  - Transformers
-  - CatBoost
-  - scikit-learn
-  - pandas
-  - numpy
-
 ## Installation
 ```bash
 pip install -r requirements.txt
