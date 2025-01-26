@@ -1,4 +1,4 @@
-# Job Title Classification Project
+# Job Title Classification with BERT and CatBoost
 
 ## Overview
 Multi-label classification of job titles using transformer-based and machine learning approaches.
