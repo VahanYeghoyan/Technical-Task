@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # Usage
 
 ## Training Pipeline
-Update Dataset Path
+Update Dataset Path<\n>
 Modify the dataset path in both BERT and CatBoost code sections:
 
 
