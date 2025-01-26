@@ -14,9 +14,9 @@ Multi-label classification of job titles using transformer-based and machine lea
 pip install -r requirements.txt
 ```
 
-## Usage
+# Usage
 
-# Training Pipeline
+## Training Pipeline
 Update Dataset Path
 Modify the dataset path in both BERT and CatBoost code sections:
 
@@ -30,10 +30,12 @@ Evaluate both models
 Save optimal thresholds (BERT: 0.25, CatBoost: auto-tuned)
 
 
-# Inference
+## Inference
 
 BERT-based Classification
+
 Load the saved BERT model and tokenizer for inference:
 
 CatBoost-based Classification
+
 Load the saved CatBoost model and TF-IDF vectorizer for inference:
