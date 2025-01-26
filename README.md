@@ -17,20 +17,18 @@ pip install -r requirements.txt
 # Usage
 
 ## Training Pipeline
-Update Dataset Path<\n>
+Update Dataset Path  
 Modify the dataset path in both BERT and CatBoost code sections:
 
 
-data = pd.read_excel("/path/to/dataset")  # Update to your dataset path
-Run Full Training
-
-Train BERT model (saved to ./bert_model)
+Run Full Training  
+Train BERT model (saved to ./bert_model)  
 Train CatBoost model (saved to ./cat_boost_model)
 
 
 ## Inference
 
-BERT-based Classification
-Load the saved BERT model and tokenizer for inference:
-CatBoost-based Classification
+BERT-based Classification  
+Load the saved BERT model and tokenizer for inference:  
+CatBoost-based Classification  
 Load the saved CatBoost model and TF-IDF vectorizer for inference:
