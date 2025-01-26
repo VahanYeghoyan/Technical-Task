@@ -14,26 +14,26 @@ Multi-label classification of job titles using transformer-based and machine lea
 pip install -r requirements.txt
 ```
 
-## Key Features
-- Multi-label classification
-- Threshold optimization
-- Performance metrics calculation
-
-## Model Performance
-- Evaluated using precision, recall, F1 score, and accuracy
-- Threshold optimization for best results
-
 ## Usage
-```python
-# Classify job titles
-bert_predictions = classify_with_bert(job_titles)
-catboost_predictions = classify_with_catboost(job_titles)
-```
 
-## Potential Improvements
-- Hyperparameter tuning
-- Experiment with more advanced architectures
-- Collect more training data
+# Training Pipeline
+Update Dataset Path
+Modify the dataset path in both BERT and CatBoost code sections:
 
-## Note
-Dataset is not included due to privacy considerations.
+
+data = pd.read_excel("/path/to/dataset")  # Update to your dataset path
+Run Full Training
+
+Train BERT model (saved to ./bert_model)
+Train CatBoost model (saved to ./cat_boost_model)
+Evaluate both models
+Save optimal thresholds (BERT: 0.25, CatBoost: auto-tuned)
+
+
+# Inference
+
+BERT-based Classification
+Load the saved BERT model and tokenizer for inference:
+
+CatBoost-based Classification
+Load the saved CatBoost model and TF-IDF vectorizer for inference:
